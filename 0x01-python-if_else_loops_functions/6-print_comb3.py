@@ -4,4 +4,4 @@ for y in range(0, 10):
         if y == 8 and p == 9:
             print('89')
         else:
-            print('{}{}, '.format(y,p), end='')
+            print('{}{}, '.format(y, p), end='')
