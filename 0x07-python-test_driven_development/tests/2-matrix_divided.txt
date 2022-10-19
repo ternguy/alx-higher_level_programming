@@ -1,6 +1,8 @@
 How to Use 2-matrix_divided.py
 ==============================
+
 This module defines a matrix division function ``matrix_divided(matrix, div)``.
+
 
 Usage
 =====
@@ -9,7 +11,6 @@ Usage
 ``matrix`` with all elements divided by ``div``.
 
 ::
-
     >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
     >>> matrix = [
     ...     [3, 6, 9],
@@ -70,7 +71,9 @@ floats. If ``matrix`` is not a list, a TypeError is raised.
     >>> print(matrix_divided(matrix, 3))
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of lists) of integers/floats
+
 ::
+
     >>> matrix = None
     >>> print(matrix_divided(matrix, 3))
     Traceback (most recent call last):
@@ -88,6 +91,7 @@ Note that an empty list will raise the TypeError.
 But an empty list of lists will succeed.
 
 ::
+
     >>> matrix = [[]]
     >>> print(matrix_divided(matrix, 3))
     [[]]
