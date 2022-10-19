@@ -3,6 +3,7 @@
 This module contains a function that indents texts
 """
 
+
 def text_indentation(text):
     '''This function prints a text with 2 new lines after each ".", "?", or ":"
     Args:
